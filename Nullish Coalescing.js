@@ -29,3 +29,12 @@ console.log(quantidade ?? 10);
 
 // Os resultados serão diferentes porque (||) é usado no segundo valor se caso o primeiro for falsy.
 //Os resltados serão diferentes porque (??) é usado em um valor padrão se caso o valor for null ou undefined.
+
+//exercico 5
+
+const usuario = {
+  apelido: undefined
+};
+
+const nomeExibido = usuario.apelido ?? "Visitante";
+console.log(nomeExibido);
